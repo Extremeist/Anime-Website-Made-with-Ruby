@@ -9,6 +9,6 @@ class AnimeTest < ActiveSupport::TestCase
 
   test 'should not save submission without title' do
     anime = Anime.new
-    assert_not anime.save, "saved the submission without a title"
+    assert_not anime.save, 'saved the submission without a title'
   end
 end
