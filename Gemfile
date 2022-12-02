@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+#git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.2'
 
@@ -55,14 +55,14 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
 
   # Security Tools
-  gem 'brakeman'
-  gem 'bundler-audit'
-  gem 'ruby_audit'
+  # gem 'brakeman'
+  #gem 'bundler-audit'
+  # gem 'ruby_audit'
   # Database
-  gem 'pg'
+  # gem 'pg'
   # Linting
-  gem 'rubocop'
-  gem 'rubocop-rails'
+  # gem 'rubocop'
+  #  gem 'rubocop-rails'
 end
 
 group :development do
